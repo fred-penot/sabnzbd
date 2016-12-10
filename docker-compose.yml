@@ -2,7 +2,7 @@ app:
   image: fwed/sabnzbd
   net: "host_sabnzbd"
   ports:
-    - 7680:7680
+    - 7878:7878
   volumes:
     - /home/Download/temp:/home/apps/sabnzbd/temp
     - /home/ExtendHD/Download:/home/apps/sabnzbd/complete
