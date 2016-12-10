@@ -1,0 +1,10 @@
+app:
+  image: fwed/sabnzbd
+  net: "host_sabnzbd"
+  ports:
+    - 7680:7680
+  volumes:
+    - /home/Download/temp:/home/apps/sabnzbd/temp
+    - /home/ExtendHD/Download:/home/apps/sabnzbd/complete
+    - /home/ExtendHD:/home/apps/sabnzbd/media
+  tty: true
